@@ -92,7 +92,7 @@ const Footer = () => {
                 }
                 onMouseOut={(e) => (e.target.style.color = linkStyle.color)}
               >
-                Services
+                About
               </a>
             </li>
             <li>
@@ -104,7 +104,7 @@ const Footer = () => {
                 }
                 onMouseOut={(e) => (e.target.style.color = linkStyle.color)}
               >
-                Portfolio
+                Services
               </a>
             </li>
             <li>
@@ -128,9 +128,7 @@ const Footer = () => {
           <ul style={listStyle}>
             <li style={paragraphStyle}>Phone: +123 456 7890</li>
             <li style={paragraphStyle}>Email: info@example.com</li>
-            <li style={paragraphStyle}>
-              Address: 123 Developer Lane, Code City
-            </li>
+            <li style={paragraphStyle}>Pakistan</li>
           </ul>
         </div>
       </div>
